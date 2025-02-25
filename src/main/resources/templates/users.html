@@ -10,7 +10,7 @@
         <div>
             <form th:action="@{/logout}" method="post">
                 <p>
-                    Welcome <b>[[${#request.userPrincipal.principal.fullName}]]</b>
+                    Welcome <b>[[${#authentication.principal.fullName}]]</b>
                 </p>
                 <input type="submit" value="Sign Out"/>
             </form>
@@ -18,7 +18,7 @@
         <div>
             <h1>List All Users</h1>
         </div>
-        <div>
+          <div>
             <table class="table table-striped table-bordered">
                 <thead class="thead-dark">
                     <tr>

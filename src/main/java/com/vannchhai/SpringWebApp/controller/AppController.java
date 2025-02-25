@@ -2,14 +2,7 @@ package com.vannchhai.SpringWebApp.controller;
 
 import com.vannchhai.SpringWebApp.model.User;
 import com.vannchhai.SpringWebApp.repo.UserRepository;
-import com.vannchhai.SpringWebApp.service.CustomUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.security.core.Authentication;
-//import org.springframework.security.core.context.SecurityContextHolder;
-//import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
